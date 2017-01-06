@@ -1,0 +1,19 @@
+kind: Service
+apiVersion: v1
+metadata:
+  labels:
+    app: node-emsapp-service
+  name: node-emsapp-service
+spec:
+  type: NodePort
+  ports:
+  - name: https
+    port: 8080
+    nodePort: 32030
+    targetPort: 8080
+  - name: http
+    port: 80
+    nodePort: 32031
+    targetPort: 80
+  selector:
+    app: nginxplus

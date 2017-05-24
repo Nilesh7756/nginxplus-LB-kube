@@ -1,6 +1,9 @@
 # nginxplus-LB-kube
 https://www.nginx.com/blog/load-balancing-kubernetes-services-nginx-plus/
 
+#Docker Images Creation for nginx
+
+https://www.nginx.com/blog/deploying-nginx-nginx-plus-docker/
 
 https://www.nginx.com/blog/load-balancing-kubernetes-services-nginx-plus/#replication-controller-service
 
